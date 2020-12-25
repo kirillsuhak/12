@@ -1,0 +1,121 @@
+.box {
+    background-color: beige;
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+    margin-top: 300px;
+    border: 3px solid black;
+    border-radius: 40% 40% 20% 20%;
+    display: block;
+
+}
+.hears {
+    display: flex;
+    height: 80px;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+.hear1 {
+    background-color: rgb(181, 181, 110);
+    width: 80px;
+    height: 180px;
+    border-radius: 50px ;
+    border : 2px solid black   ;
+    position: relative ;
+    bottom: 100px;
+    z-index: -1;
+}
+.h1 {
+    background-color: rebeccapurple;
+    width: 40px;
+    height: 120px;
+    border-radius: 50px ;
+    border : 2px solid black   ;
+    margin : auto ;
+    margin-top: 10px;
+    
+}
+
+.hear2 {
+    background-color: rgb(181, 181, 110);
+    width: 80px;
+    height: 180px;
+    position: relative;
+    border-radius: 50px ;
+    border : 2px solid black   ;
+    bottom: 100px;
+    z-index: -1;
+}
+.h2 {
+    background-color:rebeccapurple;
+    width: 40px;
+    height: 120px;
+    border-radius: 50px ;
+    border : 2px solid black   ;
+    margin : auto ; 
+    margin-top: 10px;
+
+}
+
+.eyes {
+    height: 50px;
+    width: 300px;
+    display: block;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    
+}
+.eye1 {
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    position: relative ;
+    border-radius: 100%;
+    box-shadow: 1px 2px 10px black;
+}
+.eye1_1 {
+    height: 25px;
+    width: 15px;
+    background-color: white;
+    position: relative ;
+    border-radius: 100%;
+    
+}
+.eye2 {
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+    box-shadow: 1px 2px 10px black;
+
+}
+.eye2_2 {
+    height: 25px;
+    width: 15px;
+    background-color: white;
+    position: relative ;
+    border-radius: 100%;
+
+}
+
+.noys {
+    height: 25px;
+    width: 100px;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+}
+.noys1 {
+    height: 20px;
+    width: 20px;
+    background-color: salmon;
+    border-radius: 100%;
+}
+.noys2 {
+    height: 20px;
+    width: 20px;
+    background-color: salmon;
+    border-radius: 100%;
+}   
